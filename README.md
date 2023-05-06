@@ -1,12 +1,14 @@
 ### Hi there 👋
 ### My name is Ilya Shirko and I'm 🐍 Python Developer!
 
-#### I love to code, solve complex problems and am open to suggestions.
+#### I like to solve complex problems with cool IT solutions and am open to suggestions.
 
 ### Contacts
 If you want mail me - click [📧 here 📧](mailto:ilyashirko@gmail.com).  
 Although if the issue is urgent, it is better to write in [telegram](https://t.me/ilyashirko) (it will be faster ~~a bit~~ x100)
 
+### For employers
+Here is my CV actual for 06 may 2023: [click](https://github.com/ilyashirko/ilyashirko/blob/main/IlyaShirko_CV.pdf)
 <!--
 **ilyashirko/ilyashirko** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
