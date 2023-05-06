@@ -1,0 +1,164 @@
+\documentclass[letterpaper,11pt]{article}
+\usepackage[utf8]{inputenc} % Включаем поддержку UTF8  
+\usepackage[russian]{babel}  % Включаем пакет для поддержки русского языка  
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large ILYA SHIRKO} & Email : \href{mailto:ilyashirko@gmail.com}{ilyashirko@gmail.com}\\
+  \textbf{\Large Middle PYTHON developer} & Mobile : \href{tel:+79112640455}{+7 911 264-04-55} \\
+\end{tabular*}
+
+
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+ \resumeSubHeadingListStart
+   \item{
+     \textbf{Technologies}{: Django, DRF, SQL, PostgreSQL, Redis, Docker,           Linux, Bootstrap, HTML/CSS}
+   }
+ \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Devman}{Russia, Moscow (remote)}
+      {Software Engineer}{Jan 2022 - Present}
+      \resumeItemListStart
+        \resumeItem{Freelance exchange}
+          {(Django, Redis, Telegram API) Service for customers and contractors.}\\
+          {Implemented the logic of the bot, refactored the DB architecture, reviewed the code of the co-developers. \href{https://github.com/ilyashirko/osminog}{\textit{see on GitHub}}
+        \resumeItem{Cakes online store}
+          {(Django, Redis, Telegram API) Construct your personal cake and order it.}\\
+          {Developed DB architecture, set up frontend and backend. \href{https://github.com/ilyashirko/cakes}{\textit{see on GitHub}}}
+        \resumeItem{Pizza telegram store}
+          {(Redis, Telegram API, Motlin API) }\\
+          {Full-stack development. \href{https://github.com/ilyashirko/pizza-shop}{\textit{see on GitHub}}
+        \resumeItem{Burgers online store}
+          {(Django, DRF, geopy, PostgreSQL, Docker)}\\
+          {Full backend, set up frontend and backend, authorization, deployment. \href{https://github.com/ilyashirko/burger_store}{\textit{see on GitHub}}
+        \resumeItem{FAQ support chat-bot}
+          {(Google Cloud (DialogFlow), VK API, Telegram API)}\\
+          {Full-stack development. \href{https://github.com/ilyashirko/verb_games_support_bot}{\textit{see on GitHub}}
+        \resumeItem{Interactive map generator}
+          {Django, HTML/CSS}\\
+          {Full backend, set up frontend and backend, deployment. \href{https://github.com/ilyashirko/city_guide}{\textit{see on GitHub}}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Self-employment}{Russia, Saint-Petersburg}
+      {Software Engineer}{Jan 2022 - Present}
+      \resumeItemListStart
+        \resumeItem{YES Code studio}
+          {(Django, HTML/CSS, Bootstrap 5, Telegram API) Chat-bots development for small business.}\\
+          {Full-stack development. \href{https://yes-code.ru}{\textit{Visit main page}}}
+        \resumeItem{ServiceCenter CRM}
+          {(Django, DRF, Telegram API) Lite version of CRM system for service center orders based on Telegram API.}\\
+          {Full-stack development. \href{https://github.com/ilyashirko/service_center}{\textit{see on GitHub}}}
+        \resumeItem{Inventory app for tile warehouse}
+          {(Django, Redis, Pandas, Telegram API) Service for controlling balances and movement of goods based on Telegram API. (repo is private, can show it during the interview).}
+    \resumeItemListEnd
+    \resumeSubheading
+      {XCase, ООО Эльдорадо, ГК Хорошая связь, ПАО Вымпелком, ...}{Russia, Saint-Petersburg}
+      {Sales office director, Sales coach, Sales manager}{2011 - 2022}
+      \resumeItemListStart
+        \resumeItem{Total experience}
+          {The total experience, taking into account breaks, was about 8 years.}
+        \resumeItem{Awards}
+          {Best results for the quarter. (ГК Хорошая связь)}
+        \resumeItem{Main responsibilities}
+          {Training and control of personnel, sale, adjustment and repair of portable electronics. Interaction with the central office and controlling organizations.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{PET projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Mass mailing service}
+      {(Python 2.7, Django 1.11, Celery, Redis, Gmail). Full-stack development. \href{https://github.com/ilyashirko/mailganer}{\textit{see on GitHub}}}
+    \resumeSubItem{Football matches daily parser}
+      {(Selenium, BS4, SQL) Full-stack development. \href{https://github.com/ilyashirko/fs_selenium}{\textit{see on GitHub}}}
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {DVMN.org}{2022 -- 2023}
+      {Django, HTML/CSS, API, Django ORM, Advanced layout, Chat-bots, Docker, Async, Git, Code review}{}
+    \resumeSubheading
+      {SYNERGY univercity}{2018 -- 2013}
+      {Bachelor of Civil Jurisprudence}{}
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
+
