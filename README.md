@@ -8,7 +8,7 @@ If you want mail me - click [📧 here 📧](mailto:ilyashirko@gmail.com).
 Although if the issue is urgent, it is better to write in [telegram](https://t.me/ilyashirko) (it will be faster ~~a bit~~ x100)
 
 ### For employers
-Here is my CV actual for 23 december 2023: [click](https://github.com/ilyashirko/ilyashirko/blob/main/IlyaShirko_CV.pdf)
+Here is my experience: [click](https://ilyashirko.dev/experience)
 <!--
 **ilyashirko/ilyashirko** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
